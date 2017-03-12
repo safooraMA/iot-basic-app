@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iot basic app
+  host: iot-basic-app
+  disk_quota: 1024M
+  services:
+  - iot basic app-cloudantNoSQLDB
+  - iot basic app-iotf-service
